@@ -1,0 +1,413 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto;
+    flex-direction: column;
+    background-color: rgb(227, 240, 240);
+}
+
+header{
+    background-color: #1f2937;
+    border-radius: 20px;
+    padding:20px 100px;
+    width: 725px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+.ancorcomments,.ancormain,.ancorend{
+    text-decoration: none;
+    color: white;
+}
+
+.logo.text{
+    display: inline;
+    font-style: italic;
+    color: white;
+    font-weight: 300;
+}
+.site.logo{
+    height: 50px;
+    filter: brightness(0) invert(1);   
+}
+.header.links {
+    display: inline;
+    color: #ffffff;
+    font-weight:450;
+    position: absolute;
+    top: 0;
+    right:0;
+    padding: 20px 60px;
+    font-size: 10px;
+    list-style: none;
+
+}
+.header.links li span:nth-child(1):hover{
+    cursor: pointer;
+    background-color: #0e2442;
+}
+.header.links li span:nth-child(2):hover{
+    cursor: pointer;
+    background-color: #0e2442;
+}
+.header.links li span:nth-child(3):hover{
+    cursor: pointer;
+    background-color: #0e2442;
+}
+.header.links li span:nth-child(1){
+    margin:0 5px 0 5px;
+    padding: 3px 15px;
+    border-radius: 5px;
+}
+.header.links li span:nth-child(2){
+    margin:0 5px 0 5px;
+    padding: 3px 15px;
+    border-radius: 5px;
+}
+.header.links li span:nth-child(3){
+    margin:0 5px 0 5px;
+    padding: 3px 15px;
+    border-radius: 5px;
+}
+.subtitle{
+    color: white;
+    padding: 40px 0;
+    font-size: 30px;
+    font-weight: 200;
+}
+.legend{
+    color: rgb(209, 209, 209);
+    font-size: 13px;
+    position: relative;
+    bottom: 50px;
+    
+}
+.hotel.image{
+    height: 240px;
+    width: 400px;
+    position: relative;
+    bottom:225px;
+    left: 320px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 0 #121b29;
+    resize: both;
+    overflow: hidden;
+}
+.book{
+    border: none;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    border-radius: 3px;
+    padding:7px 15px;
+    position: relative;
+    bottom: 45px;
+    font-family: roboto;
+}
+.book:hover{
+    cursor: pointer;
+    background-color: rgb(2, 85, 161);
+}
+.subtitle span{
+    color: #006afff3;
+    font-weight:600;
+}
+#main{
+    background-color: white;
+    text-align: center;
+    position: relative;
+    bottom: 190px;
+    padding: 0px 6px 50px;
+    border-radius: 10px;
+    z-index: 10;
+    margin: 0 auto;
+    width: 915px;
+}
+.photo.title{
+    color:#1f2937;
+    display: inline-block;
+    font-size:30px;
+    font-weight: 300;
+}
+.photo.title span{
+    color: rgb(30, 101, 182);
+    font-size: 35px;
+    font-style: italic;
+    position: relative;
+    top: 2px;
+    font-weight:600;
+    
+}
+.images.set{
+    display:flex;
+    height: 130px; 
+    justify-content: center;
+
+}
+.image1{ 
+    border-radius: 10px 0 0 10px;
+    transition-duration: 0.3s;
+    width: 200px;
+
+}
+.image2{
+    transition-duration: 0.3s;
+    width: 200px;
+
+}
+.image3{
+    transition-duration: 0.3s;
+    width: 200px;
+
+}
+.image4{
+    border-radius:0 10px 5px 0 ;
+    transition-duration: 0.1s;
+    width: 200px;
+
+}
+.image1:hover{
+   transform: scale(1.4); 
+   border-radius: 10px;
+}
+.image2:hover{
+    transform: scale(1.4); 
+    border-radius: 10px; 
+}
+.image3:hover{
+    transform: scale(1.4);
+    border-radius: 10px;
+}
+.image4:hover{
+    transform: scale(1.4); 
+    border-radius: 10px;
+}
+.photo.description ul{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    list-style: none;
+    position: relative;
+    bottom: 80px;
+    z-index:-1;
+    font-weight:500;
+}
+.photo.description li{
+    margin: 20px 10px 0px 5px;
+    padding: 80px 5px 40px 5px;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 190px;
+}
+.photo.description li:nth-child(1){
+    position: relative;
+    left:5px;
+    background-color: #27374D;
+    box-shadow: -1px 5px 5px rgba(0, 0, 0, 0.199);
+}
+.photo.description li:nth-child(2){
+    position: relative;
+    right: 10px;
+    background-color: #526D82;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.199);
+}
+.photo.description li:nth-child(3){
+    position: relative;
+    right: 25px;
+    background-color: #9DB2BF;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.199);
+}    
+.photo.description li:nth-child(4){
+    position: relative;
+    right:40px;
+    background-color: #b2bbc2;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.199);
+}
+.photo.description li:nth-child(1) span:nth-child(2){
+    color:#FF9D3D ;
+    font-size: 16px;
+    font-style: oblique; 
+}
+.photo.description li:nth-child(2) span:nth-child(1){
+    color:#FEEE91 ;
+    font-size: 16px;
+    font-style: oblique;
+}
+.photo.description li:nth-child(3) span:nth-child(1){
+    color:#008DDA ;
+    font-size: 16px;
+    font-style: oblique;
+}
+.photo.description li:nth-child(3) span:nth-child(2){
+    color:#FFFDB5 ;
+    font-size: 16px;
+    font-style: oblique;
+}
+.photo.description li:nth-child(4) span:nth-child(1){
+    color:#114232 ;
+    font-size: 16px;
+    font-style: oblique;
+}
+.photo.description li:nth-child(4) span:nth-child(2){
+    color:#FCDC2A ;
+    font-size: 16px;
+    font-style: oblique;
+}
+#comments{
+    background-color: #E5E7Eb;
+    z-index: 10;
+    border-radius: 10px;
+    width: 930px;
+    position: relative;
+    bottom: 300px;
+    font-weight: 300;
+}
+.clients{
+    font-style: italic;
+    font-size: 15px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    padding: 5px 50px 150px 50px;
+}
+.clients li{
+    margin: 10px;
+    background-color:#d2d4d8 ;
+    padding: 30px 30px 50px 30px;
+    width: 0 auto;
+    border-radius: 10px;
+    position: relative;
+
+}
+.clients li span{
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.clients li:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.301),
+    -5px -5px 10px #e1e3e6;
+    transition: 0.2s ease-in-out;
+}
+
+.com{
+    display: flex;
+    background-color: #cbcdd1;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.199);
+}
+.commentsTitle{
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 700;
+}
+.commentsTitle:hover{
+    cursor: default;
+}
+.commentsIcon{
+    transform: rotate(15deg);
+    padding: 2px;
+    position: relative;
+    height: 20px;
+}
+.readMore{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 60px;
+}
+.commentButton{
+    border:none;
+    background-color:#d2d4d8;
+    position: relative;
+    bottom:160px ;
+    padding:5px 10px ;
+    border-radius: 5px;
+    font-family: roboto;
+    font-style: italic;
+    font-weight: 300;
+}
+.commentButton:hover{
+    background-color:#bec0c4;
+    cursor: pointer;
+
+}
+
+#end{
+    padding: 100px;
+    background-color:white ;
+    border-radius: 10px;
+    position: relative;
+    bottom: 425px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+}
+.github{
+    display: flex;
+    align-items: center;
+    background-color: #222d3d;
+    color: white;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 30px;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.233);
+}
+.gitIcon{
+    height: 86px;
+    width: 80px;
+    border-radius:50%;
+    margin-right: 20px;
+}
+.gitTitle{
+    font-weight: 700;
+    font-size: 20px;
+    color: #677d9c;
+    position: relative;
+    top: 12px;
+}
+.git{
+    display: inline;
+    font-size: 15px;
+}
+
+.cursor{
+    height: 45px;
+    position: relative;
+    top: 30px;
+    right: 8px;
+    rotate: 70deg;
+}
+.gitbutton{
+    border:none ;
+    background-color:#101b2b ;
+    border-radius: 3px;
+    padding: 5px 10px;
+    position: relative;
+    right: 15px;
+    font-family: roboto;
+
+}
+.gitbutton:hover{
+    background-color:#2b3b53 ;
+}
+.gitbutton a{
+    color: white;
+}
+.git,.gitbutton{
+    position: relative;
+    bottom: 12px;
+}
+
